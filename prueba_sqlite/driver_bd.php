@@ -26,4 +26,9 @@ while($fila = $resultado->fetchArray(SQLITE3_ASSOC)){
 	echo 
 }
 */
+
+
+
+// cerrar la base de datos --- ver videos
+funcione estan php.net book.sqlite
 ?>
