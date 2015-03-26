@@ -23,8 +23,7 @@
      <button type="button" id="enviar" class="btn btn-default navbar-btn">Enviar Correo <span class="badge">:D</span></button>
      <button type="button" id="ver-carro" class="btn btn-default navbar-btn">Ver Carro <span class="badge">#{cantidad}</span></button>
      <button type="button" id="borrar" class="btn btn-danger navbar-btn">Eliminar productos <span class="badge">:(</span></button>
-     <a class="btn btn-danger"href="?eliminar=1">Eliminar</a>
-     <a class="btn btn-primary"href="?correo=1">Correo</a>
+     <a class="btn btn-primary text-uppercase"href="enviar.php">enviar correo</a>
     </div>
   </div>
 </nav>

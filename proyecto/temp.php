@@ -11,7 +11,21 @@
    <script src="assets/js/jquery-2.1.3.min.js"></script>
    <script src="assets/js/bootstrap.min.js"></script>
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
-     
+     <style type="text/css">
+     /*.col-md-4{
+      border-color: black;
+      border-style: solid;
+     }
+     .col-sm-6{
+      border-color: black;
+      border-style: solid;
+     }
+     .col-xs-4{
+      border-color: black;
+      border-style: solid;
+
+     }*/
+     </style>
   <title>Carrito</title>
 </head>
 <body>
@@ -25,38 +39,47 @@
     </div>
   </div>
 </nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
 
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
       </div>
     </div>
   </div>
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
+</div>
 
-    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4 col-sm-6 col-md-4">Hola</div>
+    <div class="col-xs-4 col-sm-6 col-md-4 text-center">Hola</div>
+    <div class="col-xs-4 col-md-4">Hola</div>
   </div>
 </div>
 

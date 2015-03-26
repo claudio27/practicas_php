@@ -38,8 +38,9 @@
 					$carro->destruye_sesion();
 			}
 			else if(!empty($_GET['correo']))
-			{
-				$vista->render_correo($_SESSION['productos']);
+			{	// TODO borrar
+				//header('correo.php');
+				//$vista->render_correo($_SESSION['productos']);
 			}
 
 	}

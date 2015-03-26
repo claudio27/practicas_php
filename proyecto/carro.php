@@ -11,6 +11,7 @@
 		if(!isset($_SESSION['productos']))
 		{
 			$_SESSION['cantidad'] = 0;
+			
 		}
 	}
 

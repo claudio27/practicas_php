@@ -25,14 +25,15 @@ class Vista{
 	{
 		$cantidad = count($arreglo);
 		// print_r($arreglo);
-		echo("<h4>Los $cantidad productos que usted lleva son los siguientes: </h4><br>");
-
-		foreach ($arreglo as $key => $value) {
-			echo "<hr><br>";
-			foreach ($value as $clave => $valor) {
-				echo $clave ." - ". $valor ."<br>"; 
-			}
-		}
+		// echo("<h4>Los $cantidad productos que usted lleva son los siguientes: </h4><br>");
+		//echo("HOLALALALALA");
+		echo "HOLALALAL";
+		// foreach ($arreglo as $key => $value) {
+		// 	echo "<hr><br>";
+		// 	foreach ($value as $clave => $valor) {
+		// 		echo $clave ." - ". $valor ."<br>"; 
+		// 	}
+		// }
 	}
 
 
