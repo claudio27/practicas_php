@@ -10,7 +10,9 @@
 	//Capturamos la salida si se realiza una consulta a la BD.    
 	//$resultado = $consulta -> fetch(PDO::FETCH_ASSOC);
 	//$resultado = $consulta -> fetch();
-	$resultado = $consulta -> fetchAll(PDO::FETCH_ASSOC); 
+	//$resultado = $consulta -> fetchAll(PDO::FETCH_ASSOC); 
+    // sin PDO::FETCH_ASSOC, trae los datos en los dos tipos numerico y asociativo
+	$resultado = $consulta -> fetchAll(); 
 	print_r($resultado);                           
 
 echo "<br>";
@@ -31,22 +33,6 @@ foreach ($resultado as $key => $value) {
 	}
 }
 
-/*
-
-abrir y crear bd sqlite3
-
-	sqlite3 transporte.db
-
-crear tabla
-	
-	create table bus(
-  id_bus char (6) primary key not null,-- bus001 hasta bus015
-  descripcion varchar(25) not null,-- describe el bus
-  fecha date not null,--fecha de adquisición o compra
-  capacidad integer not null);--cantidad máxima de pasajero
-
-
-*/
 
 ?>
 
